@@ -11,6 +11,12 @@ a{
     top: 30%;
 }
 
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    .caption-text {
+        width: 50%;
+    }
+}
+
 p{
     color: coral;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -46,6 +52,13 @@ h4{
    text-align: start;
 }
 
+@media only screen and (min-width: 768px) {
+    .about-img .about-us-heading .about-text{
+        width: 50%;
+    }
+}
+
+
 .headings{
     text-align: justify;
     padding-top: 250px;
@@ -60,6 +73,19 @@ span{
     display:flex;
     justify-content: center;
 }
+
+@media only screen and (min-width: 768px) {
+    .project-text{
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .investors-heading .investor-img{
+        width: 50%;
+    }
+}
+
 
 .heading{
     padding-top: 207px;
@@ -85,6 +111,12 @@ span{
     height: 70vh;
     padding-top: 200px;
     background-size: cover;
+}
+
+@media only screen and (min-width: 768px) {
+    .testimonials .carousel-item t{
+        width: 50%;
+    }
 }
 
 .carousel-item{

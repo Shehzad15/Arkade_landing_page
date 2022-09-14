@@ -72,6 +72,53 @@ span{
     margin-left: 1px;
 }
 
-.investors-img{
-    width: 20px;
+.investor-img{
+    width: 50%;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 100px;
+} 
+
+.testimonials{
+    background-image: url(img/testimonial.png);
+    background-position: center;
+    height: 70vh;
+    padding-top: 200px;
+    background-size: cover;
+}
+
+.carousel-item{
+    text-align: center;
+}
+
+.testimonial-text{
+    color:beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    color: coral;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer-data ul li{
+    list-style-type:disc;
+    padding: 4px;
+}
+.subs-btn:hover{
+    background-color: #000;
+    color: #fff;
+}
+.abt-me{
+    float: right;
+    margin-top: 50px;
+}
+.abt-me small:hover{
+    text-decoration: underline;
+    color: #3d60f4;
+    font-weight: 600;
+}
+
+.footer-data ul li{
+    list-style-type: none;
 }

@@ -61,6 +61,11 @@ span{
 .project-flex{
     display:flex;
     justify-content: center;
+    width: 297px;
+    padding-left: 44px;
+    padding-right: 10px;
+    margin-left: 564px;
+
 }
 
 .heading{
@@ -127,8 +132,14 @@ h3{
     list-style-type: none;
 }
 
-@media only screen and (min-width: 768px) {
-    .banner-carousel .about-us .project-text .investors .testimonials{
+@media only screen and (max-width: 768px) {
+        .project-flex{
+           
+            max-width: 45%;
+            padding-right: 50px;
+            margin-left: 100px;
+           
         
     }
 }
+ 

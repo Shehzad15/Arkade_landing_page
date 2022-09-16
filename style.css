@@ -3,10 +3,24 @@
     margin-right: 12px;
 }
 
+.head-logos{
+    display: flex;
+    text-align: justify;
+    padding-top: 10px;
+    justify-content: space-around;
+}
+
+.top-text{
+    color: white;
+}
+
+.top-brand{
+    color: #ff7907;
+}
+
 a{
-    font-family:'Times New Roman', Times, serif;
-    font-weight: bold;
-    
+    /* editor.fontFamily: 'Roboto Mono Regular', 'monospace', 'monospace' , */
+    font-weight: bolder;
 }
 
 .btn-warning{
@@ -40,6 +54,18 @@ h4{
     font-size: 25px;
 }
 
+.arkade-text{
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.arkade-head{
+    color: #ff7907;
+    font-weight: 200;
+    editor.fontFamily: 'Roboto Mono Regular', 'monospace', 'monospace' ,
+    ;
+}
+
 .about-us-heading{
     padding: 0px 11px;
     margin-top: 24px;
@@ -55,6 +81,7 @@ h4{
 }
  .about-text{
    text-align: start;
+   color: rgb(105, 103, 103);
 }
 
 .about2-img{
@@ -100,6 +127,11 @@ span{
     padding: 0px 11px;
     margin-top: 24px;
     margin-left: 1px;
+}
+
+.service-text{
+    color: #000;
+    letter-spacing: 0.4em;
 }
 
 /* .investor-img{

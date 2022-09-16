@@ -1,7 +1,16 @@
+.nav-link{
+    font-size: 15px;
+    margin-right: 12px;
+}
+
 a{
     font-family:'Times New Roman', Times, serif;
     font-weight: bold;
     
+}
+
+.btn-warning{
+    background-color: #ff7907;
 }
 
 .caption-text{
@@ -9,6 +18,7 @@ a{
     right: 56%;
     position: absolute;
     top: 30%;
+    font-weight: 800;
 }
 
 
@@ -47,6 +57,11 @@ h4{
    text-align: start;
 }
 
+.about2-img{
+    position: relative;
+    left: 60%;
+    bottom: 16%;
+}
 
 .headings{
     text-align: justify;
@@ -69,7 +84,7 @@ span{
 }
 
 .heading{
-    padding-top: 207px;
+    padding-top: 30px;
     padding-left: 71px;;
 }
 
@@ -79,12 +94,12 @@ span{
     margin-left: 1px;
 }
 
-.investor-img{
+/* .investor-img{
     width: 40%;
     padding-right: 20px;
     padding-left: 20px;
     padding-bottom: 100px;
-} 
+}  */
 
 .testimonials{
     background-image: url(img/testimonial.png);
@@ -139,7 +154,26 @@ h3{
             padding-right: 50px;
             margin-left: 100px;
            
-        
     }
+    .caption-text{
+        text-align: center;
+        right: 14%;
+        position: absolute;
+        top: 9%;
+        font-weight: 800;
+        display: block !important;
+    }
+    
+    
+    .about2-img{
+        position: relative;
+        left: 60%;
+        bottom: 16%;
+    }
+
+    .carousel-item{
+        margin-top: 64px;
+    }
+    
 }
  

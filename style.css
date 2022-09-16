@@ -73,6 +73,14 @@ span{
     color: coral;
 }
 
+.pro-heading{
+    color: #000;
+}
+
+.pro-2{
+    color: #ff7907 ;
+}
+
 .project-flex{
     display:flex;
     justify-content: center;
@@ -145,6 +153,28 @@ h3{
 
 .footer-data ul li{
     list-style-type: none;
+}
+
+.fa-brands{
+    color: #ff7907;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 87px;
+    padding-left: 56px;
+}
+
+.footer-img{
+    margin-left: 88px;
+}
+
+.copy-text{
+    color: white;
+    background-color: rgb(28, 25, 25);
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
 }
 
 @media only screen and (max-width: 768px) {

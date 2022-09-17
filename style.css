@@ -111,6 +111,7 @@ span{
 
 .pro-heading{
     color: #000;
+    margin-left: 20px;
 }
 
 .pro-2{
@@ -118,7 +119,8 @@ span{
 }
 
 .buttons {
-  padding-right: 136px;  
+  padding-right: 136px;
+  margin-left: 50px;  
 }
 
 .action_btn{

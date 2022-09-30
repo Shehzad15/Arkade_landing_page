@@ -29,6 +29,10 @@ a{
     background-color: #ff7907;
 }
 
+btn{
+    font-family: 'Spartan';
+}
+
 .caption-text{
     text-align: start;
     right: 56%;
@@ -40,7 +44,7 @@ a{
 
 p{
     color: coral;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Spartan';
 }
 
 .btn{
@@ -84,9 +88,17 @@ h4{
     width: 15%;
     
 }
+
+.target{
+    width: 100%;
+    margin-right: 90px;
+   
+}
  .about-text{
    text-align: start;
    color: rgb(105, 103, 103);
+   font-family: 'Spartan';
+   font-size: 13px;
 }
 
 .about2-img{
@@ -181,7 +193,24 @@ span{
     background-size: cover;
 }
 
+.testi{
+    color: #fff;
+    font-family: 'Spartan';
+}
 
+.tt{
+    color:#ff7907 ;
+}
+
+.tt{
+    font-family: 'Spartan';
+    font-size: 15px;
+    margin-left: 650px;
+}
+
+.ttt{
+    text-decoration: underline;
+}
 
 .carousel-item{
     text-align: center;
@@ -196,12 +225,13 @@ span{
 
 h3{
     color: coral;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Spartan';
 }
 
 .footer-data ul li{
     list-style-type:disc;
     padding: 4px;
+    font-family: 'Spartan';
 }
 .subs-btn:hover{
     background-color: #000;
@@ -232,15 +262,26 @@ h3{
     padding-left: 56px;
 }
 
+.text{
+    font-family: 'Spartan';
+}
+
 .footer-img{
     margin-left: 88px;
+}
+
+.add-text{
+    font-family: 'Spartan';
+    font-size: 15px;
 }
 
 .copy-text{
     color: white;
     background-color: rgb(28, 25, 25);
     text-align: center;
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Spartan';
+    font-size: 15px;
+    padding: 15px;
 }
 
 @media only screen and (max-width: 768px) {

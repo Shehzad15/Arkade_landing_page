@@ -425,11 +425,33 @@
     .contact-form {
       padding: 0px;
     }
+    .background-img {
+      background-image: url("img/banner_img.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      /* width: 200vh; */
+      height: 60vh;
+    }
+    .co-logo{
+     display: flex;
+      padding-right: 60px;
+      padding-left: 80px;
+    }
   
+    .head{
+      padding-left:  30px;
+      ;
+    }
     .carosel {
       padding: 0px;
       padding-top: 48px;
       padding-bottom: 48px;
+    }
+
+    .logo-img{
+      padding-right: 50px;
+      margin-left: -50px;
     }
   }
   

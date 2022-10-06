@@ -1,387 +1,435 @@
-.nav-link{
-    font-size: 15px;
-    margin-right: 12px;
-    /* font-weight: bold; */
-}
-
-.head-logos{
-    display: flex;
-    text-align: justify;
-    padding-top: 10px;
-    justify-content: space-around;
-}
-
-.top-text{
-    color: white;
-}
-
-.top-brand{
-    color: #ff7907;
-}
-
-a{
-
-    font-family: 'Spartan';
-}
-
-
-.btn-warning{
-    background-color: #ff7907;
-}
-
-btn{
-    font-family: 'Spartan';
-}
-
-.caption-text{
-    text-align: start;
-    right: 56%;
-    position: absolute;
-    top: 30%;
-    font-weight: 800;
-}
-
-
-p{
-    color: coral;
-    font-family: 'Spartan';
-}
-
-.btn{
-    margin-top: 25px;
-}
-
-h4{
-    display: flex;
-    justify-content: center;
-    padding-top: 70px;
-    padding-bottom: 40px;
-    font-family: 'Spartan'; 
-    font-size: 17px;
-    letter-spacing: 1.2em;
-    font-weight: bolder;
-}
-
-.arkade-text{
-    font-weight:bolder;
-    font-size: 30px;
-    font-family: 'Spartan';
-}
-
-.arkade-head{
-    color: #ff7907;
-    font-weight: 200;
-    font-family: 'Spartan';
-    
-}
-
-.about-us-heading{
-    padding: 0px 11px;
-    margin-top: 24px;
-    margin-left: 1px;
-}
-
-.about-img{
-    position: absolute;
-    padding-top: 250px;
-    padding-right: 20px;
-    width: 15%;
-    
-}
-
-.target{
-    width: 100%;
-    margin-right: 90px;
-   
-}
- .about-text{
-   text-align: start;
-   color: rgb(105, 103, 103);
-   font-family: 'Spartan';
-   font-size: 13px;
-}
-
-.about2-img{
-    position: relative;
-    left: 60%;
-    bottom: 16%;
-}
-
-.headings{
-    text-align: justify;
-    padding-top: 250px;
-    padding-left: 70px;
-}
-
-h2{
-    font-weight: bold;
-}
-
-span{
-    color: coral;
-}
-
-.pro-heading{
-    color: #000;
-    margin-left: 20px;
-}
-
-.pro-2{
-    color: #ff7907 ;
-}
-
-.buttons {
-  padding-right: 136px;
-  margin-left: 50px;  
-}
-
-.action_btn{
-    width: 156px;
-    margin: -4px;
-    padding: 5px;
-}
-    
-
-.project-flex{
-    display:flex;
-    justify-content: center;
-    width: 297px;
-    padding-left: 44px;
-    padding-right: 10px;
-    margin-left: 564px;
-
-}
-
-.heading{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-
-    
-    padding-top: 30px;
-    padding-left: 71px;;
-}
-
-.invest-text{
-    font-family: 'Spartan';
-}
-
-.investors-heading{
-    padding: 0px 11px;
-    margin-top: 24px;
-    margin-left: 1px;
-}
-
-.service-text{
-    color: rgb(105, 103, 103);;
-    letter-spacing: 0.4em;
-    font-family: 'Spartan';
-}
-
-/* .investor-img{
-    width: 40%;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-bottom: 100px;
-}  */
-
-.testimonials{
-    background-image: url(img/testimonial.png);
+.background-img {
+    background-image: url("img/banner_img.png");
+    background-repeat: no-repeat;
     background-position: center;
-    height: 70vh;
-    padding-top: 200px;
     background-size: cover;
-}
-
-.testi{
-    color: #fff;
-    font-family: 'Spartan';
-}
-
-.tt{
-    color:#ff7907 ;
-}
-
-.tt{
-    font-family: 'Spartan';
-    font-size: 15px;
-    margin-left: 650px;
-}
-
-.ttt{
-    text-decoration: underline;
-}
-
-.carousel-item{
-    text-align: center;
-}
-
-.testimonial-text{
-    color:beige;
-    font-family: 'Spartan';
-    font-size: 15px;
+    /* width: 200vh; */
+    height: 100vh;
+  }
+  
+  body {
     padding-top: 20px;
-}
+  }
 
-h3{
-    color: coral;
-    font-family:'Spartan';
-}
+  .icons{
+    color: #ed850a;
+  }
 
-.footer-data ul li{
-    list-style-type:disc;
-    padding: 4px;
-    font-family: 'Spartan';
-}
-.subs-btn:hover{
-    background-color: #000;
+  .head{
+    padding-left: 150px;
+  }
+
+  .logo-img{
+    padding-left: 60px;
+    width: 250px;
+  }
+  
+  .btn{
     color: #fff;
-}
-.abt-me{
-    float: right;
-    margin-top: 50px;
-}
-.abt-me small:hover{
-    text-decoration: underline;
-    color: #3d60f4;
-    font-weight: 600;
-}
+    background-color: #f97c07;
+  }
+  .carousel-text {
+    word-spacing: 10px;
+    letter-spacing: 10px;
+    font-size: 15px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ed850a;
+    font-weight: 100;
+  }
 
-.footer-data ul li{
-    list-style-type: none;
-}
+  .co-logo{
+    padding-right: 100px;
+  }
 
-.fa-brands{
-    color: #ff7907;
-}
-
-.icons{
+  .fa-logo{
+    color: #ed850a;
+  }
+  
+  .item {
+    margin-top: 30vh;
+    margin-left: 20vh;
+  }
+  
+  .owl-carousel .owl-nav button.owl-prev,
+  .owl-carousel .owl-nav button.owl-next {
+    background-color: rgba(145, 147, 148, 0);
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    color: white;
+    text-align: center;
+  }
+  
+  .owl-nav {
     display: flex;
     justify-content: space-between;
-    padding: 87px;
-    padding-left: 56px;
-}
-
-.text{
-    font-family: 'Spartan';
-}
-
-.footer-img{
-    margin-left: 88px;
-}
-
-.add-text{
-    font-family: 'Spartan';
-    font-size: 15px;
-}
-
-.copy-text{
+    position: relative;
+    top: -125px;
+  }
+  
+  .carousel-text-2 {
+    font-size: 40px;
     color: white;
-    background-color: rgb(28, 25, 25);
-    text-align: center;
-    font-family:'Spartan';
-    font-size: 15px;
-    padding: 15px;
-}
-
-@media only screen and (max-width: 768px) {
-        .project-flex{
-            margin-bottom: 60px;
-            max-width: 48%;
-            padding-right: 50px;
-            margin-left: 100px;
-           
-    }
-    .caption-text{
-        text-align: center;
-        right: 14%;
-        position: absolute;
-        top: 9%;
-        font-size: 10px;
-        padding-bottom: 20px;
-        display: block !important;
-    }
-    
-    
-    .about2-img{
-        position: relative;
-        left: 60%;
-        bottom: 16%;
-    }
-
-    .carousel-item{
-        margin-top: 64px;
-    }
-
-    h2{
-        font-weight: bold;
-        font-size: 15px;
-    }
-
-    .btn-warning{
-        background-color: #ff7907;
-        /* margin: 50px; */
-    }
-    
-    .testimonial-text{
-        color:beige;
-        font-family: 'Spartan';
-        font-size: 10px;
-        padding-top: 20px;
-    }
+  }
+  
+  .arkade-grp-text {
+    word-spacing: 10px;
+    letter-spacing: 10px;
+    margin-top: 80px;
+  }
+  
+  .positioning-img {
+    width: 20vh;
+    position: relative;
+    left: 72%;
+    bottom: 15vh;
+  }
+  
+  span{
+    color: #f97c07;
+  }
 
   
 
-    .testimonials{
-        background-image: url(img/testimonial.png);
-        background-position: center;
-        height: 70vh;
-        padding-top: 200px;
-        
-        background-size: cover;
-    }
+  .about-us-txt,
+  .life-investor-txt {
+    font-size: 30px;
+    margin-left: 10px;
+  }
+  
+  .about-us-title,
+  .life-investor-title {
+    margin-left: 10px;
+  }
+  
+  .life-investor-title {
+    font-size: 50px;
+  }
+  
+  .about-us,
+  .life-investor {
+    border-left: 5px solid #fe7e06;
+    margin-left: 100px;
+  }
 
-    h3{
-        color: coral;
-        font-family:'Spartan';
-        font-size: 20px;
-    }
+  .btn_1{
+    color: #fff;
+    background-color: #000;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 
-    .carousel-btn{
-        margin-bottom: 130px;
-    }
+  .btn_2{
+    color: #fff;
+    background-color:#f97c07;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .btn_2 :hover{
+    color: #f97c07;
+    size: 5px;
+  }
+  
+  .anout-us-para {
+    text-align: justify;
+    margin-left: 100px;
+    font-size: 15px;
+    color: rgb(138, 137, 137);
+  }
+  
+  .vision-font {
+    margin-left: 100px;
+  }
 
-    .carousel-item{
-        text-align: center;
-     
-    }
+  .about-us-title{
+    letter-spacing: 5px;
+  }
 
-    .pro-heading{
-        color: #000;
-        margin-left: 50px;
-       
-    }
+  .aim-logo{
+    color: #fe7e06;
+  }
+  
+  .sec-2-fa {
+    font-size: 35px;
+  }
+  
+  .sec-2-img {
+    outline: 3px solid#fe7e06;
+    outline-offset: -32px;
+  }
+  
+  .our-projects {
+    margin: 50px;
+  }
+  
+  .line::after {
+    content: "";
+    /* display: block; */
+    width: 130px;
+    height: 1px;
+    background: #000;
+    right: 722px;
+    top: 68px;
+    position: absolute;
+  }
+  
+  .line {
+    font-family: sans-serif;
+    margin: 100px auto;
+    color: #228b22;
+    text-align: center;
+    font-size: 30px;
+    max-width: 767px;
+    position: relative;
+  }
+  
+  .buttons-our-proj {
+    position: absolute;
+    left: 1151px;
+    top: 213%;
+  
+  }
+  
+  .img-txt {
+    position: absolute;
+    bottom: -1%;
+    padding-left: 10px;
+    color: #ed850a;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px rgb(0, 0, 2);
+  }
+  
+  .life-investor-heading {
+    letter-spacing: 10px;
+    margin-left: 10px;
+  }
 
-    h4{
-        display: flex;
-        /* justify-content: center; */
-        padding-top: 70px;
-        padding-bottom: 40px;
-        font-family: 'Spartan'; 
-        font-size: 15px;
-        letter-spacing: 1.2em;
-        font-weight: bolder;
-        margin-left: 30px;
-    }
+  .life-investor-para{
+    font-size: 15px;
+    color: rgb(138, 137, 137);
+  }
+  
+  .life-investor-img {
+    outline: 3px solid#fe7e06;
+    outline-offset: -32px;
+  }
+  
+  .life-investor-heading {
+    font-size: 18px;
+  }
+  
+  .testimonial-bg {
+    background-image: url("img/testimonial.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* width: 200vh; */
+    height: 70vh;
+  }
+  
+  .head-carousel {
+    font-size: 100px;
+    /* color: ze: 15px; */
+    color: rgb(138, 137, 137);;
+  }
+  
+  .text-carousel {
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  hr {
+    position: relative;
+    bottom: 74px;
+    width: 50px;
+    left: 104px;
+  }
+  
+  .address {
+    text-align: justify;
+    margin-left: 35px;
+  }
+  
+  .footer-inner-font {
+    font-size: 13px;
+    font-family: "Spartan";
+    line-height: 22px;
+  }
 
-    .action_btn{
-        width: 100px;
-        margin-top: 5px;
-        margin-top: 3px;
-        
-    }
+  .contact-para{
+    margin-bottom: 30px;
+  }
 
-    /* .buttons{
-      
-    } */
-}
+  .footer{
+    background-color: rgb(39, 38, 38);
+  }
+
+  .contact-icon{
+    color: #f97c07;
+    background-color: #f97c07;
+  }
+  
+  .contact-para,
+  .form-text,
+  .text-carousel,
+  .carousel-para,
+  .take-a-look-btn,
+  .life-investor-para,
+  .life-investor-txt,
+  .life-investor-title,
+  .life-investor-heading,
+  .anout-us-para,
+  .about-us-txt,
+  .about-us-title,
+  .nav-link,
+  .ark-rights,
+  .we-are-text {
+    font-family: "Spartan";
+  }
+  
+  .nav-link {
+    font-weight: bold;
+  }
+  
+  .contact-para {
+    padding-left: 50px;
+  }
+  
+  .ark-rights {
+    text-align: center;
+    background-color: rgb(31, 29, 29);
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+  }
+  
+  .owl-item {
+    margin: 0px;
+  }
+  
+  .carosel {
+    padding: 48px;
+  }
+
+  .footer-icons{
+    color: #f97c07;
+  }
+  
+  /* .take-a-look-btn-m {
+    visibility: hidden;
+  } */
+  
+  @media only screen and (max-width: 767px) {
+    .carousel-text-2 {
+      font-size: 20px;
+      color: white;
+      text-align: center;
+    }
+  
+    .fa-social-media {
+      font-size: 8px;
+    }
+  
+    .owl-text {
+      text-align: center;
+    }
+  
+    .discover-btn {
+      width: 100%;
+    }
+  
+    .carousel-text {
+      word-spacing: 10px;
+      letter-spacing: 5px;
+      font-size: 15px;
+      text-align: center;
+    }
+  
+    .item {
+      margin-top: 30vh;
+      margin-left: 0vh;
+    }
+  
+    .arkade-grp-text {
+      word-spacing: 10px;
+      letter-spacing: 5px;
+      margin-top: 80px;
+    }
+  
+    .sec-2-img {
+      width: 40vh;
+      margin-left: 2px;
+    }
+  
+    .positioning-img {
+      width: 20vh;
+      position: relative;
+      left: 55%;
+      bottom: 15vh;
+    }
+  
+    .about-us {
+      border-left: 9px solid rgb(255, 115, 0);
+      margin-left: 0px;
+    }
+  
+    .anout-us-para,
+    .life-investor-para {
+      text-align: justify;
+      margin-left: 18px;
+    }
+  
+    .vision-font {
+      margin-left: 0px;
+    }
+  
+    .sec-2-p {
+      padding-left: 0px;
+    }
+  
+    .vision {
+      padding-left: 25px;
+    }
+  
+    .our-proj-img {
+      width: 11vh;
+    }
+  
+    .line {
+      display: none;
+      visibility: hidden;
+    }
+  
+    .our-project {
+      position: relative;
+    }
+  
+    .buttons-our-proj {
+      position: absolute;
+      left: 71px;
+      top: 100px;
+    }
+  
+    .our-projects-heading-txt {
+      text-align: center;
+    }
+  
+    .img-txt {
+      padding-left: 10px;
+      color: #ed850a;
+      text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px rgb(0, 0, 2);
+      font-size: 10px;
+    }
+  
+    .contact-form {
+      padding: 0px;
+    }
+  
+    .carosel {
+      padding: 0px;
+      padding-top: 48px;
+      padding-bottom: 48px;
+    }
+  }
+  

@@ -28,6 +28,13 @@
     color: #fff;
     background-color: #f97c07;
   }
+
+     
+  .btn_3{
+    color: #fff;
+    background-color: #f97c07;
+  }
+  
   .carousel-text {
     word-spacing: 10px;
     letter-spacing: 10px;
@@ -342,8 +349,13 @@
     .carousel-text {
       word-spacing: 10px;
       letter-spacing: 5px;
-      font-size: 15px;
+      font-size: 18px;
       text-align: center;
+      margin-top: -62px;
+    }
+
+    .we-are-text{
+      letter-spacing: 2px;
     }
   
     .item {
@@ -378,6 +390,7 @@
     .life-investor-para {
       text-align: justify;
       margin-left: 18px;
+      font-size: 15px;
     }
   
     .vision-font {
@@ -425,6 +438,17 @@
     .contact-form {
       padding: 0px;
     }
+
+       
+  /* .btn_3{
+    color: #fff;
+    background-color: #f97c07;
+    margin-left: 107px;
+  } */
+
+  .btn_4{
+    margin-left: 117px;
+  }
     .background-img {
       background-image: url("img/banner_img.png");
       background-repeat: no-repeat;
@@ -436,7 +460,7 @@
     .co-logo{
      display: flex;
       padding-right: 60px;
-      padding-left: 80px;
+      padding-left: 67px;
     }
   
     .head{
@@ -447,6 +471,11 @@
       padding: 0px;
       padding-top: 48px;
       padding-bottom: 48px;
+    }
+
+    .life-investor-img{
+      width: 350px;
+      margin-top: 10px;
     }
 
     .logo-img{
